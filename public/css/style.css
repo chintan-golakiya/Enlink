@@ -1,0 +1,219 @@
+.log-sign{
+	background-size:cover;
+	background-image: url('../ima1.jpg');
+	background-repeat: none;
+	color: white;
+}
+
+.page-home
+{
+	background-repeat: none;
+	background-size: cover;
+	background-image: url('../ima3.jpg');
+}
+
+.logo {
+	padding: 20px 75px;
+	border:1px solid;
+	border-radius: 10px;
+	border-color: #0cad17;
+    display: block;
+    margin-top:3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+input{
+	color: white;
+	line-height: 1.7;
+	padding: .5em;
+	border:1px solid;
+	border-color: #0cad17;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.6);
+    font-family: "Open Sans";
+    border-radius: 7px;
+    margin:5px 10px 5px 0px;
+    width: 100%;
+}
+fieldset{
+	border:1px solid;
+	border-radius: 10px;
+	border-color: #0cad17;
+	padding:25px;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.button{
+	box-shadow: 0px;
+	border: none;
+	padding: 10px 20px;
+	margin:5px 10px 5px 0px;
+	border-radius: 7px;
+	cursor: pointer;
+	width:100%;
+	background-color: #0cad17;
+}
+
+.formtitle
+{
+	text-align: center;
+	font-family: 
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}
+
+.flexed
+{
+	display:flex;
+
+}
+
+.main-content
+{
+	width:75%;
+	height:200%;
+	background-color: blue;
+	margin-left: 21%;
+}
+
+
+.homeheader
+{
+	height:auto;
+	color: #27e549;
+	background-color: rgba(0,0,0,0.60);
+	padding:15px 10px;
+	overflow: auto;
+	border-radius: 15px;
+}
+
+.headertitle
+{
+	font-family:Rockwell;
+	font-size:2.8rem;
+	float:left;
+	margin-left: 30px;
+}
+
+.links
+{
+	float:right;
+	margin-right: 20px;
+}
+
+
+
+.signuplink,.loginlink
+{
+	margin-top: 10px;
+	font-family: Helvetica;
+	outline:none;
+	height: 40px;
+	text-align: center;
+	width: 110px;
+	border-radius:15px;
+	background-color: rgba(0,0,0,0.25);
+	border: 2px solid #27e549;
+	color:#27e549;
+	letter-spacing:1px;
+	text-shadow:0;
+	font:{
+		size:12px;
+		weight:bold;
+ 	}
+}
+
+.signuplink,.loginlink:hover{
+	cursor: pointer;
+}
+
+
+.link-content
+{
+	font-family: Optima,serif;
+	font-style: italic;
+}
+
+.link-wide
+{
+	font-size: 7rem;
+	color: #27e549;
+	margin: 25px;
+	margin-bottom: -30px;
+}
+
+.text
+{
+	font-size :1.2rem;
+	color: black;
+	text-align: center;
+}
+
+.description
+{
+	font-size: 2rem;
+	font-weight: 100;
+	text-align: center;
+	line-height: 4rem;
+}
+
+
+@media only screen and (max-width: 650px){
+	fieldset{
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+	.link-wide{
+		font-size:35px;
+	}
+	.description{
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width: 1050px) and (min-width: 651px){
+	fieldset{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+
+//after change
+
+.user-detail{
+	font-size: 2.5rem;
+	font-family:helvetica;
+	
+}
+
+.user-name{
+	margin:25px;
+}
+
+.profile-pic{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin:15px;
+}

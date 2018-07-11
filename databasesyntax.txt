@@ -1,0 +1,1 @@
+create table user(userid int(5) NOT NULL AUTO_INCREMENT,username varchar(30),firstname varchar(30),lastname varchar(30),profilepic varchar(50) default 'profile.png',coverpic varchar(30) default 'samplebanner3.jpeg',joindate timestamp default CURRENT_TIMESTAMP,primary key (userid));

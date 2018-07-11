@@ -1,0 +1,11 @@
+Post - postid , txt , userid , post photo , posttime
+User - userid, username, firstname, lastname, password, profilepic,coverpic,joindate
+Likes - postid, userid
+Friends - friend1, friend2
+comments - userid, postid, text, commenttime
+about - userid,prfession,city,state,email,birthdate
+
+adding cover photo
+make notifications 
+friend request
+photo album
